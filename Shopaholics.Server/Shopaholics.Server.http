@@ -1,0 +1,6 @@
+@Shopaholics.Server_HostAddress = http://localhost:5223
+
+GET {{Shopaholics.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
