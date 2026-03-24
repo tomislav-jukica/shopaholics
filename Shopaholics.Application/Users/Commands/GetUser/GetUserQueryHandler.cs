@@ -6,11 +6,11 @@ using Shopaholics.Domain.Users;
 
 namespace Shopaholics.Application.Users.Commands.GetUser
 {
-    public class GetUserCommandHandler(UserManager<User> userManager) : IRequestHandler<GetUserCommand, Result<UserDto>>
+    public class GetUserQueryHandler(UserManager<User> userManager) : IRequestHandler<GetUserQuery, Result<UserDto>>
     {
         private readonly UserManager<User> _userManager = userManager;
 
-        public async Task<Result<UserDto>> Handle(GetUserCommand request, CancellationToken cancellationToken)
+        public async Task<Result<UserDto>> Handle(GetUserQuery request, CancellationToken cancellationToken)
         {
             try
             {

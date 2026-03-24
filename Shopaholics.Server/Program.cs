@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shopaholics.Application.Products.Interfaces;
 using Shopaholics.Application.Users.Commands.CreateUser;
 using Shopaholics.Application.Users.Interfaces;
 using Shopaholics.Domain.Users;
 using Shopaholics.Infrastructure.Persistance;
 using Shopaholics.Infrastructure.Repositories;
+using Shopaholics.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +33,8 @@ builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssembly(typeof(CreateUserCommandHandler).Assembly);
 });
+
+builder.Services.AddHttpClient<IProductService, ProductService>();
 
 //Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();

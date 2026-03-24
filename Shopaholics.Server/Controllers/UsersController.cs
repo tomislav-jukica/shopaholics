@@ -29,7 +29,7 @@ namespace Shopaholics.Server.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetUser([FromQuery] GetUserCommand command)
+        public async Task<IActionResult> GetUser([FromQuery] GetUserQuery command)
         {
             try
             {
