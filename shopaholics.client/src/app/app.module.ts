@@ -9,13 +9,17 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { AuthInterceptor } from './auth.interceptor';
 import { ProductsComponent } from './products/products.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ContainerComponent } from './container/container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
     LoginComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProfileComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
