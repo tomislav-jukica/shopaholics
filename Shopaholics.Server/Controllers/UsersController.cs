@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Shopaholics.Application.Users.Commands.CreateUser;
 using Shopaholics.Application.Users.Commands.GetUser;
+using Shopaholics.Application.Users.Commands.Login;
+using Shopaholics.Application.Users.DTOs;
 
 namespace Shopaholics.Server.Controllers
 {
@@ -18,7 +20,7 @@ namespace Shopaholics.Server.Controllers
             {
                 var result = await _mediator.Send(command);
 
-                if (result.IsSuccess) return Ok("User created successfully");
+                if (result.IsSuccess) return Ok();
 
                 return BadRequest(result.Errors);
             }
@@ -26,6 +28,16 @@ namespace Shopaholics.Server.Controllers
             {
                 return BadRequest(ex.Message);
             }
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginDto dto)
+        {
+            var result = await _mediator.Send(new LoginQuery(dto.Email, dto.Password));
+
+            if (!result.IsSuccess) return Unauthorized(result.Errors);
+
+            return Ok(new { token = result.Value });
         }
 
         [HttpGet]

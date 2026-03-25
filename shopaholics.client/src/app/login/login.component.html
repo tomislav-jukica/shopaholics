@@ -1,0 +1,49 @@
+<div class="auth-container">
+  <div class="auth-card">
+    <h2>Login</h2>
+
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+
+      <!-- Email -->
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          [(ngModel)]="model.email"
+          required
+          placeholder="Enter your email"
+        />
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="model.password"
+          required
+          placeholder="Enter your password"
+        />
+      </div>
+
+      <!-- Server errors -->
+      <div class="error" *ngIf="serverErrors.length">
+        <div *ngFor="let error of serverErrors">
+          {{ error }}
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="form.invalid">
+        Login
+      </button>
+
+    </form>
+
+    <p class="switch">
+      Don't have an account? 
+      <a routerLink="/register">Register here</a>
+    </p>
+  </div>
+</div>
