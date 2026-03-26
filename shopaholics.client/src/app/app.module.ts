@@ -21,6 +21,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ContainerComponent } from './container/container.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     LoginComponent,
     ProductsComponent,
     ProfileComponent,
-    ContainerComponent
+    ContainerComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

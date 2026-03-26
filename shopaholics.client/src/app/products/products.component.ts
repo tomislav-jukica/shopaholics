@@ -3,6 +3,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ProductsService, Product } from './products.service';
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'app-products',
@@ -10,13 +11,13 @@ import { ProductsService, Product } from './products.service';
   styleUrl: './products.component.css'
 })
 export class ProductsComponent implements AfterViewInit {
-  displayedColumns: string[] = ['thumbnail', 'title', 'description', 'price', 'favorite'];
+  displayedColumns: string[] = ['thumbnail', 'title', 'description', 'price', 'favorite', 'cart'];
   dataSource = new MatTableDataSource<Product>([]);
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor(private productsService: ProductsService) {
+  constructor(private productsService: ProductsService, private cartService: CartService) {
     this.fetchProducts();
   }
 
@@ -48,6 +49,10 @@ export class ProductsComponent implements AfterViewInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+
+  addToCart(product: Product) {
+    this.cartService.addToCart(product);
   }
 }
 

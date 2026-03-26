@@ -1,9 +1,13 @@
 <div class="profile-card">
-	<h2>Profile</h2>
-	<p *ngIf="userEmail; else notLoggedIn">Logged in as: <strong>{{ userEmail }}</strong></p>
-	<ng-template #notLoggedIn>
-		<p>No user is currently logged in.</p>
-	</ng-template>
+  <h2>Profile</h2>
+  <p *ngIf="userEmail; else notLoggedIn">Logged in as: <strong>{{ userEmail }}</strong></p>
+  <ng-template #notLoggedIn>
+    <p>No user is currently logged in.</p>
+  </ng-template>
 
-	<button type="button" (click)="logout()">Logout</button>
+  <div class="profile-links">
+    <a routerLink="/cart">View Cart ({{ cartItemCount }})</a>
+  </div>
+
+  <button type="button" (click)="logout()">Logout</button>
 </div>

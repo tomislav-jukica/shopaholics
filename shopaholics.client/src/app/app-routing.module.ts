@@ -5,6 +5,7 @@ import { RegisterComponent } from './register/register.component';
 import { AuthGuard } from './guards/auth.guard';
 import { UnauthGuard } from './guards/unauth.guard';
 import { ContainerComponent } from './container/container.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
 
@@ -14,6 +15,11 @@ const routes: Routes = [
     path: 'products',
     component: ContainerComponent,
     canActivate: [AuthGuard],
+  },
+  {
+    path: 'cart',
+    component: CartComponent,
+    canActivate: [AuthGuard]
   },
   { path: 'profile', redirectTo: 'products' },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
