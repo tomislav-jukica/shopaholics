@@ -1,0 +1,72 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+# Rider / VSCode
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Angular / Node
+# =========================
+node_modules/
+dist/
+tmp/
+out-tsc/
+
+# Angular cache
+.angular/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files (IMPORTANT)
+src/environments/*.ts
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# =========================
+# Secrets / config
+# =========================
+appsettings.Development.json
+appsettings.*.json
+
+# dotenv files
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Misc
+# =========================
+coverage/

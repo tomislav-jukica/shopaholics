@@ -1,0 +1,335 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programming\\.NET\\Shopaholics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|solutionrelative:shopaholics.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\commands\\getuser\\getusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\commands\\getuser\\getusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\commands\\getuser\\getusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\commands\\getuser\\getusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\commands\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\commands\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|solutionrelative:shopaholics.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A04273-DDA6-2338-B4FA-2D98E46793CE}|Shopaholics.Domain\\Shopaholics.Domain.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A04273-DDA6-2338-B4FA-2D98E46793CE}|Shopaholics.Domain\\Shopaholics.Domain.csproj|solutionrelative:shopaholics.domain\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.server\\shopaholics.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|solutionrelative:shopaholics.server\\shopaholics.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|solutionrelative:shopaholics.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.infrastructure\\persistance\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|solutionrelative:shopaholics.infrastructure\\persistance\\userdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.infrastructure\\persistance\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|solutionrelative:shopaholics.infrastructure\\persistance\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|solutionrelative:shopaholics.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.application\\users\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E00E383-BEE1-8EB9-A863-0124CDC8680B}|Shopaholics.Application\\Shopaholics.Application.csproj|solutionrelative:shopaholics.application\\users\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.infrastructure\\persistance\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|solutionrelative:shopaholics.infrastructure\\persistance\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.infrastructure\\shopaholics.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D3CFE609-2C58-B136-B279-C5006122CEBC}|Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj|solutionrelative:shopaholics.infrastructure\\shopaholics.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|f:\\programming\\.net\\shopaholics\\shopaholics.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EB0237E0-974B-65BF-6ED4-5D35462744F8}|Shopaholics.Server\\Shopaholics.Server.csproj|solutionrelative:shopaholics.server\\changelog.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Server\\Program.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Program.cs",
+              "RelativeToolTip": "Shopaholics.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:12:40.771Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\DTOs\\UserDto.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:05:04.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetUserCommandHandler.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommandHandler.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommandHandler.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:02:15.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetUserCommand.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommand.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommand.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommand.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\Commands\\GetUser\\GetUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T13:02:08.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDbContextFactory.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\UserDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Infrastructure\\Persistance\\UserDbContextFactory.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\UserDbContextFactory.cs",
+              "RelativeToolTip": "Shopaholics.Infrastructure\\Persistance\\UserDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T12:14:13.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Result.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Common\\Result.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Common\\Result.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Common\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:38:09.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Server\\Controllers\\UsersController.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Shopaholics.Server\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:36:21.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserCommandHandler.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:26:23.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\Commands\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T11:26:13.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Application\\Users\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Application\\Users\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Shopaholics.Application\\Users\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:37:25.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Shopaholics.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:36:38.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Domain\\Users\\User.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Domain\\Users\\User.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Domain\\Users\\User.cs",
+              "RelativeToolTip": "Shopaholics.Domain\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:27:55.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Infrastructure\\Persistance\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Shopaholics.Infrastructure\\Persistance\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:25:43.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "Shopaholics.Infrastructure\\Persistance\\UserDbContext.cs",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Persistance\\UserDbContext.cs",
+              "RelativeToolTip": "Shopaholics.Infrastructure\\Persistance\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:25:16.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Shopaholics.Infrastructure.csproj",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj",
+              "RelativeToolTip": "Shopaholics.Infrastructure\\Shopaholics.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-23T10:23:23.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Shopaholics.Server\\appsettings.json",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\appsettings.json",
+              "RelativeToolTip": "Shopaholics.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T10:13:05.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CHANGELOG.md",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\CHANGELOG.md",
+              "RelativeDocumentMoniker": "Shopaholics.Server\\CHANGELOG.md",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\CHANGELOG.md",
+              "RelativeToolTip": "Shopaholics.Server\\CHANGELOG.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-23T10:13:02.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Shopaholics.Server.http",
+              "DocumentMoniker": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Shopaholics.Server.http",
+              "RelativeDocumentMoniker": "Shopaholics.Server\\Shopaholics.Server.http",
+              "ToolTip": "F:\\Programming\\.NET\\Shopaholics\\Shopaholics.Server\\Shopaholics.Server.http",
+              "RelativeToolTip": "Shopaholics.Server\\Shopaholics.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-23T10:12:31.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

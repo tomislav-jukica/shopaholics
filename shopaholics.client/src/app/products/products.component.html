@@ -1,0 +1,55 @@
+<div class="products-header">
+  <h1>Shopaholics</h1>
+</div>
+<div class="table-wrap">
+    
+  <mat-form-field class="filter-field">    
+    <input matInput (keyup)="applyFilter($event)" placeholder="Search products" />
+  </mat-form-field>
+
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z1 products-table">
+
+    <ng-container matColumnDef="thumbnail">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element"><img [src]="element.thumbnail" [alt]="element.title" class="thumb" /></td>
+    </ng-container>
+
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Title</th>
+      <td mat-cell *matCellDef="let element">{{ element.title }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef>Description</th>
+      <td mat-cell *matCellDef="let element">{{ element.description }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Price</th>
+      <td mat-cell *matCellDef="let element">{{ element.price | currency:'USD' }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="favorite">
+      <th mat-header-cell *matHeaderCellDef>Fav</th>
+      <td mat-cell *matCellDef="let element">
+        <button mat-icon-button color="warn" (click)="toggleFavorite(element)">
+          <mat-icon>{{ element.isFavorite ? 'favorite' : 'favorite_border' }}</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="cart">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let element">
+        <button mat-raised-button color="primary" (click)="addToCart(element)">
+          Add to Cart
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSize]="[5]" showFirstLastButtons></mat-paginator>
+</div>

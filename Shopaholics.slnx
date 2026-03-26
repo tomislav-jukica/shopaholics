@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Shopaholics.Application/Shopaholics.Application.csproj" />
+  <Project Path="shopaholics.client/shopaholics.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Shopaholics.Domain/Shopaholics.Domain.csproj" />
+  <Project Path="Shopaholics.Infrastructure/Shopaholics.Infrastructure.csproj" />
+  <Project Path="Shopaholics.Server/Shopaholics.Server.csproj" />
+</Solution>
