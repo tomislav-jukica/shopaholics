@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Shopaholics.Application.Products.Commands.AddToFavouritesCommand;
 using Shopaholics.Application.Products.Commands.GetFavouriteProductsQuery;
+using Shopaholics.Application.Users.Commands.GetUser;
 
 namespace Shopaholics.Server.Controllers
 {
@@ -11,12 +12,15 @@ namespace Shopaholics.Server.Controllers
     {
         private readonly IMediator _mediator = mediator;
 
-        [HttpGet("{userId}")]
-        public async Task<IActionResult> GetUserFavouriteProducts(string userId)
+        [HttpGet("{userEmail}")]
+        public async Task<IActionResult> GetUserFavouriteProducts(string userEmail)
         {
             try
             {
-                var result = await _mediator.Send(new GetFavouriteProductsQuery(userId));
+                var user = await _mediator.Send(new GetUserQuery(userEmail));
+                if (!user.IsSuccess) return BadRequest("Failed to find user.");
+
+                var result = await _mediator.Send(new GetFavouriteProductsQuery(user.Value!.Id));
 
                 if (!result.IsSuccess) return BadRequest(result.Errors);
 
@@ -29,11 +33,14 @@ namespace Shopaholics.Server.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> ToggleFavourite(string userId, int productId)
+        public async Task<IActionResult> ToggleFavourite(string userEmail, int productId)
         {
             try
             {
-                var result = await _mediator.Send(new ToggleFavouriteCommand(userId, productId));
+                var user = await _mediator.Send(new GetUserQuery(userEmail));
+                if (!user.IsSuccess) return BadRequest("Failed to find user.");
+
+                var result = await _mediator.Send(new ToggleFavouriteCommand(user.Value!.Id, productId));
                 if (!result.IsSuccess) return BadRequest(result.Errors);
 
                 return Ok();

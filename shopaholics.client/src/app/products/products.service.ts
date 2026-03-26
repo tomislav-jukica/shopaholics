@@ -1,24 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { AuthService } from '../auth.service';
 
 export interface Product {
-  title: string;
-  description: string;
-  price: number;
-  thumbnail: string;
-  isFavorite?: boolean;
+    id: number;
+    title: string;
+    description: string;
+    price: number;
+    thumbnail: string;
+    isFavorite?: boolean;
 }
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class ProductsService {
-  private apiBase = 'http://localhost:5223/api';
+    private apiBase = 'http://localhost:5223/api';
 
-  constructor(private http: HttpClient) {}
+    constructor(private http: HttpClient, private authService: AuthService) { }
 
-  getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(`${this.apiBase}/Products`);
-  }
+    getFavouriteProducts(): Observable<Product[]> {
+        return this.http.get<Product[]>(`${this.apiBase}/Favourites/${this.authService.getUserEmail()}`);
+    }
+
+    getProducts(): Observable<Product[]> {
+        return this.http.get<Product[]>(`${this.apiBase}/Products`);
+    }
 }

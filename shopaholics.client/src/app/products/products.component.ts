@@ -4,6 +4,8 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { ProductsService, Product } from './products.service';
 import { CartService } from '../cart.service';
+import { HttpClient } from '@angular/common/http';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-products',
@@ -17,7 +19,7 @@ export class ProductsComponent implements AfterViewInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor(private productsService: ProductsService, private cartService: CartService) {
+  constructor(private productsService: ProductsService, private cartService: CartService, private http: HttpClient, private authService: AuthService) {
     this.fetchProducts();
   }
 
@@ -29,7 +31,17 @@ export class ProductsComponent implements AfterViewInit {
   private fetchProducts() {
     this.productsService.getProducts().subscribe({
       next: (data) => {
-        this.dataSource.data = data.map((p) => ({ ...p, isFavorite: false }));
+        this.productsService.getFavouriteProducts().subscribe({
+          next: (favs) => {
+            const favIds = favs.map(f => f.id);
+            console.log(favIds);
+            this.dataSource.data = data.map((p) => ({ ...p, isFavorite: favIds.includes(p.id) }));
+          },
+          error: (err) => {
+            console.error('Favorites fetch error', err);
+            this.dataSource.data = data.map((p) => ({ ...p, isFavorite: false }));
+          }
+        });
       },
       error: (err) => {
         console.error('Product fetch error', err);
@@ -38,8 +50,18 @@ export class ProductsComponent implements AfterViewInit {
   }
 
   toggleFavorite(item: Product) {
-    item.isFavorite = !item.isFavorite;
-    this.dataSource.data = this.dataSource.data.map((p) => p === item ? item : p);
+    const userEmail = this.authService.getUserEmail();
+    const url = `http://localhost:5223/api/Favourites?userEmail=${userEmail}&productId=${item.id}`;
+
+    this.http.post(url, {}).subscribe({
+      next: () => {
+        item.isFavorite = !item.isFavorite;
+        this.dataSource.data = this.dataSource.data.map((p) => p === item ? item : p);
+      },
+      error: (err) => {
+        console.error('Add favorite error', err);
+      }
+    });   
   }
 
   applyFilter(event: Event) {
