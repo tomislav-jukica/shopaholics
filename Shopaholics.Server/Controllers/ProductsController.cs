@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Shopaholics.Application.Products.Commands.GetProductQuery;
 using Shopaholics.Application.Products.Commands.GetProductsQuery;
 
 namespace Shopaholics.Server.Controllers
@@ -22,6 +23,23 @@ namespace Shopaholics.Server.Controllers
             try
             {
                 var result = await _mediator.Send(new GetProductsQuery());
+
+                if (!result.IsSuccess) return BadRequest(result.Errors);
+
+                return Ok(result.Value);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProduct(int id)
+        {
+            try
+            {
+                var result = await _mediator.Send(new GetProductQuery(id));
 
                 if (!result.IsSuccess) return BadRequest(result.Errors);
 
