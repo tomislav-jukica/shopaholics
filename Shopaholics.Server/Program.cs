@@ -31,7 +31,7 @@ builder.Services.AddCors(options =>
 
 //DB
 builder.Services.AddDbContext<UserDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite("Data Source=shopaholics.db"));
 
 builder.Services.AddMemoryCache();
 
@@ -76,6 +76,12 @@ builder.Services.AddScoped<IFavouriteRepository, FavouriteRepository>();
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<UserDbContext>();
+    db.Database.EnsureCreated();
+}
 
 app.UseDefaultFiles();
 app.MapStaticAssets();
