@@ -70,6 +70,7 @@ builder.Services.AddHttpClient<IProductService, ProductService>();
 
 //Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IFavouriteRepository, FavouriteRepository>();
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
